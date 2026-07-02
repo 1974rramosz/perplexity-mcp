@@ -2,6 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "perplexity-mcp",
   "main": "src/index.ts",
+  "workers_dev": true,
   "compatibility_date": "2026-07-01",
   "compatibility_flags": ["nodejs_compat"],
   "durable_objects": {
